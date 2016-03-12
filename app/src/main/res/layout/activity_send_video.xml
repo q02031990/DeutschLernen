@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/LinearLayout_Send_Video"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    tools:context="tiengduc123.com.deutschlernen.SendVideo"
+    android:background="@color/ColorBackGround"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Niveaus"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#6691fd">
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:width="250dip"
+        android:hint="A, B, C or DSH"
+        android:id="@+id/txtNiveaus"
+        android:layout_marginBottom="30dp"
+        android:textColorHint="#ececec">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Link Youtube"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#6691fd">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="5"
+        android:hint="youtube.com/watch?v=XXXXXXXX\nyoutube.com/watch?v=XXXXXXXX\nyoutube.com/watch?v=XXXXXXXX\n
+        "
+        android:id="@+id/txtBody"
+        android:gravity="left|top"
+        android:textColorHint="#ececec">
+    </EditText>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Send to us"
+        android:id="@+id/send"
+        android:shadowColor="@color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFC508"
+        android:background="#ececec"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColorHint="#fb4646" />
+
+</LinearLayout>

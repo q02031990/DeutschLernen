@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/MenuAppsTiengDuc123"
+        android:alphabeticShortcut="t"
+        android:title="App for Learning"
+        />
+    <item
+        android:id="@+id/MenuShare"
+        android:alphabeticShortcut="s"
+        android:title="Share for your friends"
+        />
+    <item
+        android:id="@+id/MenuSendVideo"
+        android:alphabeticShortcut="t"
+        android:title="Send your videos to us"
+        />
+    <item android:visible="false"
+        android:id="@+id/Impressum"
+        android:alphabeticShortcut="t"
+        android:title="Impressum"
+        />
+    <item android:visible="false"
+        android:id="@+id/MenuUpdate"
+        android:alphabeticShortcut="t"
+        android:title="Update new Version"
+        />
+    <item
+        android:id="@+id/MenuAbout"
+        android:alphabeticShortcut="t"
+        android:title="About us"
+        />
+</menu>
